@@ -119,6 +119,37 @@ main > section{
 }
 
 
+/* some facts style here  */
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.fact-description{
+    width: 530px;
+}
+
+.fact-card{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 5px 0 10px 0;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+}
+
 
 /* Responsive Layout here */
 @media screen and (max-width:576px) {
