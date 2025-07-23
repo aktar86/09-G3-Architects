@@ -47,6 +47,10 @@ main > section{
 .text-center{
     text-align: center;
 }
+.section-title{
+    font-size: 2.81rem;
+    font-weight:700 ;
+}
 
 
 
@@ -109,9 +113,7 @@ main > section{
     margin-left: 130px;
     max-width: 530px;
 }
-.feature-title{
-    font-size: 2.81rem;
-}
+
 #quick-list{
     font-weight: 400;
 }
